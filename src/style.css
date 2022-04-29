@@ -7,11 +7,16 @@ body {
     margin: 0;
 }
 
+main{
+    padding: 36px;
+    margin:10px;
+}
+
 .header {
     display: flex;
     align-items: center;
     height: 65px;
-    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    background:linear-gradient(90deg, #672280 1.18%, #A626D3 100%); 
     color: white;
     padding: 20px;
 }
@@ -29,4 +34,19 @@ body {
 .header-project {
     font-size: 0.75rem;
     font-weight: 500;
+}
+
+.form{
+    display:grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form-button{
+    grid-column: 1/-1;
+    font-family: "Karla", sans-serif;
+}
+
+.form-input{
+    font-family: "Karla", sans-serif;
 }
