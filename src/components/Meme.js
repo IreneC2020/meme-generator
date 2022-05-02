@@ -9,6 +9,7 @@ export default function Meme(){
     })
     
     const[allMemeImages, setAllMemeImages] = React.useState(memesData) 
+    //create state var points to memesData
 
     function getMemesImg() {
         const memesArray = allMemeImages.data.memes
